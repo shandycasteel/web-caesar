@@ -25,17 +25,21 @@ form = """
             }}
         </style>
     </head>
+    
     <body>
         <!-- Form goes here: -->
         <form method="POST">
-        <label for="rot">Rotate by:
-        <input type="text" name="rot" id="rot" value="0">
-        </label>
+            <label for="rot">Rotate by:
+                <input type="text" name="rot" id="rot" value="0">
+            </label>
 
-        <textarea name="text">{0}</textarea>
+            <textarea name="text">{0}</textarea>
 
-        <input type="submit"> 
+            <input type="submit"> 
+        </form>
+
     </body>
+
 </html>
 """
 
